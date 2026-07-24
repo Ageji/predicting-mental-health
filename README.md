@@ -249,13 +249,12 @@ Although the models performed well, several limitations should be considered.
 - Model evaluation was performed using a single train-test split. Cross-validation would provide a more robust estimate of model performance.
 
 ## Future Improvements
-Potential enhancements include:
-- Implementing K-Fold Cross-Validation.
-- Performing hyperparameter tuning using GridSearchCV or RandomizedSearchCV.
-- Evaluating additional classification algorithms such as XGBoost, LightGBM, and CatBoost.
-- Applying SHAP values to improve model interpretability.
-- Combining multiple years of the OSMI Mental Health Survey to improve model generalization.
-- Deploying the best-performing model as an interactive web application using Streamlit.
+Future enhancements to this project include:
+- Combine multiple years of the OSMI Mental Health Survey to improve model performance and generalizability.
+- Experiment with additional machine learning algorithms such as XGBoost and LightGBM.
+- Perform hyperparameter tuning to further optimize model performance.
+- Use cross-validation to obtain more robust model evaluation results.
+- Deploy the best-performing model as a simple web application using Streamlit.
 
 ## Conclusion
 
